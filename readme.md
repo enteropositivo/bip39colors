@@ -9,19 +9,18 @@ Test the tool: [https://enteroposiitivo.github.io/bip39colors](https://enteropos
 - **BIP39 Compatible:** BIP39Colors follows the BIP39 standard, ensuring compatibility with other BIP39 wallets and tools.
 - **Additional Obfuscation:** By representing the mnemonic as colors, BIP39 Colors adds an extra layer of obfuscation. Colors can be found in various sources such as website source code, color palettes used by artists, images, etc., making it less obvious to hackers or thieves.
 - **Order Doesn't Matter:** The app allows for random storage of seed components, eliminating the need for the correct positioning. You can shuffle and store the colors in any order, and still recover the original BIP39 mnemonic.
-- **Open Source:** BIP39 Colors is a fully open-source project available on [GitHub](https://github.com/EnteroPositivo/BIP39Colors). It doesn't rely on any third-party JavaScript library or CSS framework, ensuring transparency and security.
-- **Offline Usage:** For enhanced security when dealing with your real mnemonic phrase, it is recommended to download the application and use it offline. You can download a copy from the [GitHub repository](https://github.com/EnteroPositivo/BIP39Colors) or use it locally on your device.
+- **Open Source:** BIP39 Colors is a fully open-source project available on [GitHub](https://github.com/EnteroPositivo/bip39Colors). It doesn't rely on any third-party JavaScript library or CSS framework, ensuring transparency and security.
+- **Offline Usage:** For enhanced security when dealing with your real mnemonic phrase, it is recommended to download the application and use it offline. You can download a copy from the [GitHub repository](https://github.com/EnteroPositivo/bip39Colors) or use it locally on your device.
 - **Libraries Support:** BIP39 Colors provides libraries in both Python and JavaScript
 
 ## Usage
 
 To use BIP39 Colors, follow these steps:
 
-1. Download the application from the [GitHub repository](https://github.com/EnteroPositivo/BIP39Colors) or use it offline on your device.
-2. Enter your BIP39 mnemonic phrase or select the word positions.
+1. Download the libraries or HTML/JavaScript application from  [GitHub repository](https://github.com/EnteroPositivo/bip39Colors) .
+2. Enter your BIP39 mnemonic phrase.
 3. Click the "Convert" button to generate the corresponding colors.
-4. Store each color separately, and no one will know that they correspond to parts of a mnemonic phrase.
-5. When needed, you can use the colors to recover the original BIP39 mnemonic.
+4. When needed, you can use the colors to recover the original BIP39 mnemonic.
 
 
 ## BIP39Colors Library Usage
@@ -113,4 +112,4 @@ else:
 This project is authored by [@EnteroPositivo](https://twitter.com/EnteroPositivo)
 
 ## License
-This project is licensed under the [CC BY License](https://github.com/EnteroPositivo/BIP39Colors/blob/main
+This project is licensed under the [CC BY License](https://github.com/EnteroPositivo/bip39Colors/blob/main

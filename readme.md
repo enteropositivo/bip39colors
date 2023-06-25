@@ -17,7 +17,7 @@ Test the tool: [https://enteropositivo.github.io/bip39colors/](https://enteropos
 
 To use BIP39 Colors, follow these steps:
 
-1. Download the libraries or HTML/JavaScript application from  [GitHub repository](https://github.com/EnteroPositivo/bip39Colors) .
+1. Download the libraries or HTML/JavaScript application from  [GitHub repository](https://github.com/enteropositivo/bip39colors/tree/main/docs) .
 2. Enter your BIP39 mnemonic phrase.
 3. Click the "Convert" button to generate the corresponding colors.
 4. When needed, you can use the colors to recover the original BIP39 mnemonic.
@@ -71,7 +71,7 @@ if( BIP39Colors.toSeed(colors) ){
 
 ### Python
 
-You can use the library with your browser based project or with NodeJS
+You can use the library within your python project
 
 ```python
 from bip39colors import *

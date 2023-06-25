@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BIP39Colors - BIP39 mnemonic to colors tool</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="bip39colors.js" ></script>
+    <script src="app.js" ></script>
+   
+  </head>
+  <body>
+
+<div class="container">
+
+    <h1>BIP39 Colors</h1>
+    <hr/>
+    <p>Convert your BIP39 mnemonic to colors and viceversa</p>
+    
+    <div class="tabs">
+      <div id="tab1" class="tab active" onclick="changeTab('bip39tocolors')">BIP39 to Colors</div>
+      <div id="tab2" class="tab" onclick="changeTab('colorstobip39')">Colors to BIP39</div>
+    </div>
+    
+    <div class="tab-content">
+      <!-- >>> TAB 1: BIP39 to Colors -->
+      <div id="content1" class="tabcontent active">
+
+        <p>
+          Enter a existing valid 12 or 24 words of a BIP39 compatible mnemonic or you can generate one using <a href="https://iancoleman.io/bip39/" target="_blank">Iancoleman mnemonic tool</a>
+        </p>
+
+
+        <div>
+          <textarea id="seed" placeholder="BIP39 Mnemonic"></textarea>
+          <button id="generateColorsBtn">Generate colors</button>
+        </div>
+
+        <div id="error1" class="error">
+          Error: 
+        </div>
+    
+        <div id="output1">
+           <h4>BIP39Colors</h4>
+          <div class="output" id="output_colors">
+          </div>
+
+            <h4>BIP39Colors as Palette</h4>
+            <div class="canvas">
+              <canvas id="canvas" style="display:none"></canvas>
+              <img src="" id="dn" /></a>
+            </div>
+          </div> 
+
+      </div>
+      <!-- <<< TAB 1 -->    
+
+      <!-- >>> TAB 2: Colors to BIP39-->
+      <div id="content2" class="tabcontent">
+
+        <p>
+          Enter 8/16 BIP39colors and you will get back your BIP39 mnemonic.
+        </p>
+        <div>
+          <textarea id="colors" placeholder="Color in hexadecimal format: #ABCDEF"></textarea>
+          <button id="generateSeedBtn">Generate seed</button>
+        </div>
+        <div id="error2" class="error">
+          Error: The seed must be 12 or 18 words length
+        </div>
+
+        <div id="output2">
+          <h4>BIP39 mnemonic</h4>
+          
+          <div class="output" id="output_seed">
+          </div>
+  
+          <p>
+            @EnteroPositivo
+          </p>
+          
+      </div>  
+      <!-- <<< TAB 2 --> 
+
+      </div>
+
+
+
+      <h2>Why BIP39Colors ?</h2>
+      <div>
+       <h4>BIP39 compatible</h4>
+       <p>
+       BIP39Colors offers a BIP39 compatibile secure approach to storing cryptocurrency seeds.  Allows you to convert a 12/24 mnemonic of words or word position from <a href="https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt" target="_blank">BIP39 word list</a> and viceversa.
+       </p>
+
+       <h4>Colors are everywhere</h4>
+       <p>
+        BIPColors gives you an additional layer of obfuscation because colors are widely present in various sources such as website source code, color palettes used by artists, images, and more.  And it's not as obvious as finding a piece of paper with 12 words making them undetectable to hackers or thieves.
+       </p>
+
+       <h4>Order doesn't matter</h4>
+       <p>
+        It allows for random storage of seed components, eliminating the need for correct positioning. 
+        <br/>
+        You can shuffle and store the colors in the order you want and you can always recover its original BIP39 mnemonic
+       </p>
+       <p>
+        Store each color in different parts and no one will know that those colors correspond to parts of a mnemonic phrase!
+       </p>
+         
+        
+      </div>
+
+      <h2>OpenSource project without 3rd-party dependencies</h2>
+      <div>
+        <p>
+          This project is 100% opensource, you can get the sorce code from <a href="https://github.com/EnteroPositivo/bip39colors">https://github.com/EnteroPositivo/bip39colors</a>
+        </p>
+        <p>
+          No third-party libraries, javascript or css framework has been used
+        </p>
+
+      </div>
+
+      <h2>Use it allways offline</h2>
+      <div>
+        <p>
+          To use it with your real mmemonic phrase <strong>always download</strong> a download this page and use it offline, or get a copy from the GitHub repository.   
+        </p>
+        <p>
+          Also you can also use the Python or JavaScript scripts provided. 
+        </p>
+        
+
+      </div>
+
+
+      <p>
+        <br><br>
+       <strong>Author:</strong> <a href="https://twitter.com/EnteroPositivo">@EnteroPositivo</a>
+      </p>
+      
+
+
+    </div>    
+    
+    
+    
+    
+    
+
+
+    
+  </body>
+</html>

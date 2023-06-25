@@ -2,7 +2,7 @@
 
 Convert your BIP39 mnemonic to colors and vice versa
 
-Test the tool: [https://enteroposiitivo.github.io/bip39colors](https://enteroposiitivo.github.io/bip39colors)
+Test the tool: [https://enteropositivo.github.io/bip39colors/](https://enteropositivo.github.io/bip39colors/)
 
 ## Why BIP39 Colors?
 

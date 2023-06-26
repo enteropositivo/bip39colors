@@ -112,4 +112,4 @@ else:
 This project is authored by [@EnteroPositivo](https://twitter.com/EnteroPositivo)
 
 ## License
-This project is licensed under the [CC BY License](https://github.com/EnteroPositivo/bip39Colors/blob/main
+![](https://licensebuttons.net/l/by/3.0/88x31.png) This project is licensed under the [CC BY License](https://github.com/EnteroPositivo/bip39Colors/blob/main/LICENSE.md)

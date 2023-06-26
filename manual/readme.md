@@ -35,7 +35,11 @@ You don't need any external tool or library to convert from BIP39Colors method t
 109411250033097909371601149001010049117010921704
 
 **7- For each 4 digit lookup the corresponding word position in BIP39 word list**
+
 [https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt](https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt)
+
+and you'll get your original mnemonic
+
 |1094 |1125| 0033| 0979| 0937| 1601| 1490|0101 |0049 |1170| 1092| 1704|
 |--|--|--|--|--|--|--|--|--|--|--|--|
 |master| milk |advice| kid |insect |siege |riot| arrive |alcohol| mutual| mask |stay|

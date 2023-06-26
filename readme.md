@@ -110,7 +110,7 @@ else:
 
 ### Manual Method
 
-You decode your BIP39Colors by hand using only a calculator
+You can decode your BIP39Colors by hand using only a calculator
 
 [Manual method explained here](https://github.com/enteropositivo/bip39colors/tree/main/manual)
 

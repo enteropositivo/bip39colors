@@ -7,7 +7,7 @@
  * Author:  https://twitter.com/EnteroPositivo
  * 
  * GitHub: https://github.com/enteropositivo/BIP39Colors
- * License: CC By
+ * License: CC BY 4.0
  ***************************************************************/
 
 'use strict';

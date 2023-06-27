@@ -58,7 +58,7 @@ if(BIP39Colors.fromSeed(mnemonic) ){
 
 let colors = ['#613911', '#7C5809', '#B8E412', '#225531', '#01AB63', '#3E8775', '#98BDC1', '#E3AFE8'];
 
-if( BIP39Colors.toSeed(colors) ){
+if( BIP39Colors.toSeed(colors.join(' ')) ){
     console.log(BIP39Colors.seed);
     /* outputs:
     "master milk advice kid insect siege riot arrive alcohol mutual mask stay"

@@ -27,7 +27,7 @@ To use BIP39 Colors, follow these steps:
 
 ### JavaScript
 
-You can use the library with your browser based project or with NodeJS
+You can use the javascript library with your browser based project or with NodeJS
 
 ```javascript
 let mnemonic = 'master milk advice kid insect siege riot arrive alcohol mutual mask stay';
@@ -71,7 +71,7 @@ if( BIP39Colors.toSeed(colors.join(' ')) ){
 
 ### Python
 
-You can use the library within your python project
+Add the library /python/bip39colors.py to your project
 
 ```python
 from bip39colors import *
@@ -108,7 +108,53 @@ else:
 
 ```
 
-### Manual Method
+### PHP
+
+Add the library /php/bip39colors.php to your project
+
+```php
+
+require "bip39colors.php";
+
+$mnemonic = 'master milk advice kid insect siege riot arrive alcohol mutual mask stay';
+
+if(BIP39Colors::fromSeed($mnemonic) ){
+    
+    echo implode(', ', BIP39Colors::$colors);echo("<br/>");
+    /* outputs: 
+    ['#01AB63', '#225531', '#3E8775', '#613911', '#7C5809', '#98BDC1', '#B8E412', '#E3AFE8']
+    */
+
+    echo implode(', ', BIP39Colors::colorPalette());echo("<br/>");
+    /* outputs colors sorted as color palette: 
+    ['#613911', '#7C5809', '#B8E412', '#225531', '#01AB63', '#3E8775', '#98BDC1', '#E3AFE8']
+    */
+
+    echo implode(', ', BIP39Colors::$wordPositions);echo("<br/>");
+    /* outputs bip39 mnemonic words as their positions inside BIP39 word list : 
+    [1094, 1125, 33, 979, 937, 1601, 1490, 101, 49, 1170, 1092, 1704] 
+    */
+
+}else{
+    // Show current error
+    echo(BIP39Colors::getError());
+}
+
+$colors = ['#613911', '#7C5809', '#B8E412', '#225531', '#01AB63', '#3E8775', '#98BDC1', '#E3AFE8'];
+
+if( BIP39Colors::toSeed(implode(' ', $colors)) ){
+    echo(BIP39Colors::$seed);
+    /* outputs:
+    "master milk advice kid insect siege riot arrive alcohol mutual mask stay"
+    */
+}else{
+    // Show current error
+    echo(BIP39Colors::getError());
+}
+
+```
+
+## Manual Method
 
 You can decode your BIP39Colors by hand using only a calculator
 

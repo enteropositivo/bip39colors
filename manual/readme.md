@@ -37,7 +37,7 @@ From the original BIP39 mnemonic phrase (12 or 24 words), search for each word p
 |**10**010049 
 |**12**117010 
 |**14**921704 
-|
+
 
 .
 
@@ -52,8 +52,8 @@ From the original BIP39 mnemonic phrase (12 or 24 words), search for each word p
 |08149001 &rarr;   **#7C5809** 
 |10010049 &rarr; **#98BDC1** 
 | 12117010  &rarr; **#B8E412** 
- |14921704&rarr;  **#E3AFE8** 
- |
+|14921704&rarr;  **#E3AFE8** 
+
 
 
 

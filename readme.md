@@ -4,6 +4,8 @@ Convert your BIP39 mnemonic to colors and vice versa
 
 Test the tool: [https://enteropositivo.github.io/bip39colors/](https://enteropositivo.github.io/bip39colors/)
 
+NEVER USE ANY ONLINE TOOL WITH YOUR REAL SEED, use it only offline (see below)
+
 ## Why BIP39 Colors?
 
 - **BIP39 Compatible:** BIP39Colors follows the BIP39 standard, ensuring compatibility with other BIP39 wallets and tools.
@@ -13,17 +15,17 @@ Test the tool: [https://enteropositivo.github.io/bip39colors/](https://enteropos
 - **Offline Usage:** For enhanced security when dealing with your real mnemonic phrase, it is recommended to download the application and use it offline. You can download a copy from the [GitHub repository](https://github.com/EnteroPositivo/bip39Colors) or use it locally on your device.
 - **Libraries Support:** BIP39 Colors provides libraries in both Python and JavaScript
 
-## Usage
+## Basic Usage
 
-To use BIP39 Colors, follow these steps:
-
-1. Download the libraries or HTML/JavaScript application from  [GitHub repository](https://github.com/enteropositivo/bip39colors/tree/main/docs) .
+1. Download  [offline tool released](https://github.com/enteropositivo/bip39colors/releases/tag/offline_tool) to an **offline coputer**
 2. Enter your BIP39 mnemonic phrase.
 3. Click the "Convert" button to generate the corresponding colors.
-4. When needed, you can use the colors to recover the original BIP39 mnemonic.
+4. When needed, you can use the colors to recover the original BIP39 mnemonic with the same offline tool.
 
 
 ## BIP39Colors Library Usage
+
+Also you can clone this repo and use the provided libraries with your favourite language
 
 ### JavaScript
 
@@ -156,7 +158,7 @@ if( BIP39Colors::toSeed(implode(' ', $colors)) ){
 
 ## Manual Method
 
-You can decode your BIP39Colors by hand using only a calculator
+You can encode or decode your BIP39Colors by hand using only a calculator, no need any external tool or library
 
 [Manual method explained here](https://github.com/enteropositivo/bip39colors/tree/main/manual)
 

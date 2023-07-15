@@ -27,7 +27,7 @@ From the original BIP39 mnemonic phrase (12 or 24 words), search for each word p
 .
 
 **4- Add a secuential number [0-15] to the begining**
-|
+|output
 |--
 |**00**109411 
 |**02**250033 
@@ -43,7 +43,7 @@ From the original BIP39 mnemonic phrase (12 or 24 words), search for each word p
 
 **5- Convert each number from step-4 to hexadedimal**
 
-|
+|BIP39Colors
 |--
 |00109411 &rarr; **#01AB63** 
 | 02250033 &rarr;  **#225531** 
